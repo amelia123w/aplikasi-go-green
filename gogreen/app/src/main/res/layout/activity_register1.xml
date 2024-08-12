@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".registerActivity"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="00dp"
+        android:src="@drawable/shape" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R_img_1"
+        android:text="Selamat Datang Di Onboard!"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:id="@+id/R_txt_1"
+        tools:ignore="UnknownId" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/R_txt_1"
+        android:text="Kami akan membantu  memenuhi akun Anda."
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/R_txt_2"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/R_txt_2"
+        android:layout_marginTop="60dp"
+        android:padding="30dp"
+        android:id="@+id/ly_1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan nama lengkap"
+            android:backgroundTint="@color/grey"
+            android:paddingLeft="10dp"
+            android:id="@+id/name"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan Email"
+            android:backgroundTint="@color/grey"
+            android:paddingLeft="10dp"
+            android:id="@+id/email"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button_shape"
+            android:hint="Masukkan Password"
+            android:backgroundTint="@color/grey"
+            android:paddingLeft="10dp"
+            android:id="@+id/pass"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/button_shape"
+            android:hint="Konfirmasi  password"
+            android:backgroundTint="@color/grey"
+            android:paddingLeft="10dp"
+            android:id="@+id/pass_1"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:layout_below="@+id/ly_1"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:id="@+id/R_btn_1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/R_btn_1"
+        android:gravity="center"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apakah  sudah punya akun? "
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in "
+            android:textSize="17dp"
+            android:textColor="@color/blue"
+            />
+    </LinearLayout>
+</RelativeLayout>

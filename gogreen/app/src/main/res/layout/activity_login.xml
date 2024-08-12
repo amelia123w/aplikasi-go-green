@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/img_1"
+        />
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/banner2" />
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="00dp"
+        android:src="@drawable/shape" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="180pt"
+        android:background="@drawable/button_shape"
+        android:hint="Masukkan email anda"
+        android:backgroundTint="@color/grey"
+        android:paddingLeft="10dp"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="150pt"
+        android:background="@drawable/button_shape"
+        android:hint="Konfirmasi password"
+        android:backgroundTint="@color/grey"
+        android:paddingLeft="10dp"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_2"
+        android:layout_centerHorizontal="true"
+        android:text="Selamat Datang Pengguna"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="-100pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lupa password?"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:layout_marginTop="230pt"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250pt"
+        android:text="login"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:id="@+id/R_btn_1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apakah  sudah punya akun? "
+        android:textSize="15dp"
+        android:layout_marginTop="270pt"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="270pt"
+        android:text="Sign up "
+        android:textColor="@color/blue"
+        android:textSize="15dp" />
+
+</RelativeLayout>
